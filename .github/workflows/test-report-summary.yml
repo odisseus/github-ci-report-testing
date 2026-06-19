@@ -22,7 +22,7 @@ jobs:
           unzip -o $file -d target
           done
       - name: Test Report
-        uses: dorny/test-reporter@v3
+        uses: dorny/test-reporter@29672c52a8220c09bd9f79b5b6cf6315f1763996
         with:
           name: Aggregated failure reports
           path: "target/**/*.xml"
