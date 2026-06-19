@@ -1,0 +1,33 @@
+name: 'Test Failures Report'
+on:
+  pull_request:
+    branches:
+      - main
+permissions:
+  statuses: write
+  checks: write
+  contents: write
+  pull-requests: write
+  actions: write
+jobs:
+  aggregate-test-reports:
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Unpack fake reports
+        run: |
+          for file in sample-reports/*
+          do
+          unzip -o $file -d target
+          done
+      - name: Test Report
+        uses: dorny/test-reporter@v3
+        with:
+          name: Aggregated failure reports
+          path: "target/**/*.xml"
+          reporter: java-junit
+          list-suites: failed
+          list-tests: failed
+          list-files: failed
+          use-actions-summary: 'true'
