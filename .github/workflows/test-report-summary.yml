@@ -1,33 +1,40 @@
-name: 'Test Failures Report'
+name: Test Report Summary
+
 on:
-  pull_request:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["CI"]
+    types:
+      - completed
+
 permissions:
-  statuses: write
-  checks: write
-  contents: write
-  pull-requests: write
-  actions: write
+  contents: read
+  actions: read
+
 jobs:
-  aggregate-test-reports:
-    if: always()
+  summarize:
+    name: Summarize CI artifacts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - name: Unpack fake reports
-        run: |
-          for file in sample-reports/*
-          do
-          unzip -o $file -d target
-          done
-      - name: Test Report
-        uses: dorny/test-reporter@29672c52a8220c09bd9f79b5b6cf6315f1763996
+      - name: Download artifacts from triggering CI run
+        uses: actions/download-artifact@v4
         with:
-          name: Aggregated failure reports
-          path: "target/**/*.xml"
-          reporter: java-junit
-          list-suites: failed
-          list-tests: failed
-          list-files: failed
-          use-actions-summary: 'true'
+          path: artifacts
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: List files in every artifact
+        run: |
+          set -euo pipefail
+          shopt -s nullglob dotglob
+
+          if [ ! -d artifacts ] || [ -z "$(ls -A artifacts 2>/dev/null)" ]; then
+            echo "No artifacts were produced by CI run ${{ github.event.workflow_run.id }}."
+            exit 0
+          fi
+
+          for artifact_dir in artifacts/*/; do
+            artifact_name="$(basename "$artifact_dir")"
+            echo "::group::Artifact: ${artifact_name}"
+            find "$artifact_dir" -type f -print | sort
+            echo "::endgroup::"
+          done
