@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="runnervm7b5n9" name="tests.pc.CompletionInterpolatorSuite" tests="55" errors="0" failures="0" skipped="5" time="3.706" timestamp="2026-06-19T02:23:10">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-17-jdk-amd64/lib"/><property name="sun.java.command" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt-launch.jar +cross/test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2026-04-21"/><property name="java.home" value="/usr/lib/jvm/temurin-17-jdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.19+10"/><property name="user.name" value="runner"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/runner/.cache/JNA/temp/jna504316886003146112.tmp"/><property name="java.vendor.version" value="Temurin-17.0.19+10"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.19"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor" value="Eclipse Adoptium"/><property name="java.specification.maintenance.version" value="1"/><property name="scala.ext.dirs" value="/home/runner/.sbt/1.0/java9-rt-ext-eclipse_adoptium_17_0_19"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Eclipse Adoptium"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Etc/UTC"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/runner"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1001/.sbte6558b62/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1001/.sbte6558b62/swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="6.17.0-1018-azure"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib32:/usr/local/lib:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="user.dir" value="/home/runner/work/metals-tmp/metals-tmp"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.19+10"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="tests.pc.CompletionInterpolatorSuite" name="wrong_2.13.18" time="0.887">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="wrong2_2.13.18" time="0.023">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="string_2.13.18" time="0.041">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="string1_2.13.18" time="0.037">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="string2_2.13.18" time="0.097">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="multiline_2.13.18" time="0.048">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="multiline1_2.13.18" time="0.043">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="escape_2.13.18" time="0.032">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="not-escape-twice_2.13.18" time="0.039">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="escape-ident_2.13.18" time="0.032">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="interpolator_2.13.18" time="0.042">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="interpolator-in-object_2.13.18" time="0.06">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="negative_2.13.18" time="0.029">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="negative1_2.13.18" time="0.024">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="negative2_2.13.18" time="0.016">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="negative3_2.13.18" time="0.015">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="negative4_2.13.18" time="0.015">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="negative5_2.13.18" time="0.016">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="negative6_2.13.18" time="0.015">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="positive_2.13.18" time="0.039">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="positive1_2.13.18" time="0.036">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="snippet_2.13.18" time="0.035">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="snippet2_2.13.18" time="0.034">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="snippet3_2.13.18" time="0.035">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="brace_2.13.18" time="0.037">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="empty_2.13.18" time="0.325">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="empty-brace_2.13.18" time="0.239">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member_2.13.18" time="0.041">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member-label_2.13.18" time="0.049">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member1_2.13.18" time="0.039">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member2_2.13.18" time="0.038">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member3_2.13.18" time="0.052">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member-backtick_2.13.18" time="0.035">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member-multiple_2.13.18" time="0.042">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member-multiple2_2.13.18" time="0.062">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member-f_2.13.18" time="0.052">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member-raw_2.13.18" time="0.052">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member-unknown_2.13.18" time="0.057">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="member-multiline_2.13.18" time="0.038">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="closing-brace_2.13.18" time="0.034">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="closing-brace-negative_2.13.18" time="0.031">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="existing-interpolator-snippet_2.13.18" time="0.05">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="token-error_2.13.18" time="0.194">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="brace-token-error-pos_2.13.18" time="0.174">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="brace-token-error_2.13.18" time="0.163">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="backtick_2.13.18" time="0.034">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="backtick2_2.13.18" time="0.042">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="auto-imports_2.13.18" time="0.052">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="auto-imports-prefix_2.13.18" time="0.039">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="auto-imports-prefix-with-interpolator_2.13.18" time="0.045">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="extension_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="extension2_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="extension3_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="filter-by-type_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionInterpolatorSuite" name="apply-method_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

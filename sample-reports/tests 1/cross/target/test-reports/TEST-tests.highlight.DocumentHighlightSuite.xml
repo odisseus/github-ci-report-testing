@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="runnervm7b5n9" name="tests.highlight.DocumentHighlightSuite" tests="101" errors="0" failures="0" skipped="5" time="1.072" timestamp="2026-06-19T02:24:27">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-17-jdk-amd64/lib"/><property name="sun.java.command" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt-launch.jar +cross/test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2026-04-21"/><property name="java.home" value="/usr/lib/jvm/temurin-17-jdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.19+10"/><property name="user.name" value="runner"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/runner/.cache/JNA/temp/jna504316886003146112.tmp"/><property name="java.vendor.version" value="Temurin-17.0.19+10"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.19"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor" value="Eclipse Adoptium"/><property name="java.specification.maintenance.version" value="1"/><property name="scala.ext.dirs" value="/home/runner/.sbt/1.0/java9-rt-ext-eclipse_adoptium_17_0_19"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Eclipse Adoptium"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Etc/UTC"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/runner"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1001/.sbte6558b62/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1001/.sbte6558b62/swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="6.17.0-1018-azure"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib32:/usr/local/lib:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="user.dir" value="/home/runner/work/metals-tmp/metals-tmp"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.19+10"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="tests.highlight.DocumentHighlightSuite" name="single_2.13.18" time="0.853">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="multiple_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="multiple2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="multiple3_2.13.18" time="0.0">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="different-symbols_2.13.18" time="0.005">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="named-arg_2.13.18" time="0.01">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="named-arg1_2.13.18" time="0.005">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="named-args2_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="named-args2_2.13.18-1" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="named-args3_2.13.18" time="0.003">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="scopes_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="scopes2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="params_2.13.18" time="0.006">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="params2_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="params3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="params4_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="object_2.13.18" time="0.005">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="object2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="object3_2.13.18" time="0.0">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="case-class-var_2.13.18" time="0.006">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="case-class-var2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="case-class-var3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="case-class-var4_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="case-class-var5_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="var_2.13.18" time="0.009">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="var2_2.13.18" time="0.0">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="var3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="var4_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="overloaded_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-var_2.13.18" time="0.005">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-var2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-var3_2.13.18" time="0.003">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-assign_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-assign2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-assign3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-class_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-class2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="local-class3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="setter-getter_2.13.18" time="0.003">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="setter-getter2_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="setter-getter3_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="same-name_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="same-name2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="same-name3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="same-name4_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="import1_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="import2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="import3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="import4_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="rename1_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="rename2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="rename3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="rename4_2.13.18" time="0.0">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="rename5_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="case-match1_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="case-match2_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="inner-class1_2.13.18" time="0.006">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="inner-class2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="inner-class3_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="inner-class4_2.13.18" time="0.005">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="package-object_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="named-param_2.13.18" time="0.005">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="backtick_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="shadowing_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="select-parentheses_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="select-parentheses2_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="trailling-comma_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="trailling-comma2_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-bind_2.13.18" time="0.014">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-bind2_2.13.18" time="0.003">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-map_2.13.18" time="0.003">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-map1_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-foreach_2.13.18" time="0.003">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-withFilter_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-withFilter1_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-flatMap1_2.13.18" time="0.003">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="for-comp-flatMap2_2.13.18" time="0.004">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="named-arg-backtick_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="map-bind_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="map-bind1_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="map-bind2_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="map-bind3_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="map-bind4_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="map-bind5_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="map-bind6_2.13.18" time="0.004">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="extends_2.13.18" time="0.004">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="extends1_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor1_2.13.18" time="0.006">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor2_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor3_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor4_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor5_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor6_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor7_2.13.18" time="0.002">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="constructor8_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="self-type_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="self-type2_2.13.18" time="0.001">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="implicit-class-long_2.13.18" time="0.005">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="destruct-tuple_2.13.18" time="0.003">
+                      
+                    </testcase><testcase classname="tests.highlight.DocumentHighlightSuite" name="destruct-tuple-2_2.13.18" time="0.0">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="runnervm7b5n9" name="tests.pc.CompletionOverrideSuite" tests="56" errors="0" failures="0" skipped="2" time="4.253" timestamp="2026-06-19T02:22:57">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-17-jdk-amd64/lib"/><property name="sun.java.command" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt-launch.jar +cross/test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2026-04-21"/><property name="java.home" value="/usr/lib/jvm/temurin-17-jdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.19+10"/><property name="user.name" value="runner"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/runner/.cache/JNA/temp/jna504316886003146112.tmp"/><property name="java.vendor.version" value="Temurin-17.0.19+10"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.19"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor" value="Eclipse Adoptium"/><property name="java.specification.maintenance.version" value="1"/><property name="scala.ext.dirs" value="/home/runner/.sbt/1.0/java9-rt-ext-eclipse_adoptium_17_0_19"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Eclipse Adoptium"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Etc/UTC"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/runner"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1001/.sbte6558b62/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1001/.sbte6558b62/swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="6.17.0-1018-azure"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib32:/usr/local/lib:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="user.dir" value="/home/runner/work/metals-tmp/metals-tmp"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.19+10"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="tests.pc.CompletionOverrideSuite" name="basic_2.13.18" time="1.373">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="overload_2.13.18" time="0.039">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="seen-from_2.13.18" time="0.929">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="generic_2.13.18" time="0.074">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="context-bound_2.13.18" time="0.03">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="import_2.13.18" time="0.04">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="empty_2.13.18" time="0.076">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="implement_2.13.18" time="0.031">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="implement-override_2.13.18" time="0.025">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="error_2.13.18" time="0.06">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="sort_2.13.18" time="0.03">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="conflict_2.13.18" time="0.028">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="conflict2_2.13.18" time="0.038">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="mutable_2.13.18" time="0.027">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="mutable-conflict_2.13.18" time="0.028">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="jutil_2.13.18" time="0.027">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="jutil-conflict_2.13.18" time="0.033">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="jutil-conflict2_2.13.18" time="0.029">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="jlang_2.13.18" time="0.026">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="alias_2.13.18" time="0.028">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="alias2_2.13.18" time="0.03">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="rename_2.13.18" time="0.024">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="path_2.13.18" time="0.026">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="path-alias_2.13.18" time="0.026">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="path-this_2.13.18" time="0.123">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="final_2.13.18" time="0.036">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="default_2.13.18" time="0.041">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="default2_2.13.18" time="0.024">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="existential_2.13.18" time="0.037">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="cake_2.13.18" time="0.033">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="cake2_2.13.18" time="0.034">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="cake-generic_2.13.18" time="0.03">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="val-negative_2.13.18" time="0.026">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="val_2.13.18" time="0.028">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="var_2.13.18" time="0.029">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="val-var_2.13.18" time="0.023">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="abstract-var_2.13.18" time="0.029">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="abstract-var-val_2.13.18" time="0.046">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="abstract-var-def_2.13.18" time="0.026">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="private_2.13.18" time="0.021">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="protected_2.13.18" time="0.023">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="filter_2.13.18" time="0.026">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="lazy_2.13.18" time="0.027">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="early-init_2.13.18" time="0.038">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="val-trait_2.13.18" time="0.032">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="ident_2.13.18" time="0.044">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="override-abstract_2.13.18" time="0.065">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="override-concrete_2.13.18" time="0.05">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="fuzzy-abstract_2.13.18" time="0.045">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="override-word_2.13.18" time="0.052">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="def-word_2.13.18" time="0.063">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="path-dependent_2.13.18" time="0.025">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="overriden-twice_2.13.18" time="0.048">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="not-complete-ident_2.13.18" time="0.052">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="extension-override_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionOverrideSuite" name="extension_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

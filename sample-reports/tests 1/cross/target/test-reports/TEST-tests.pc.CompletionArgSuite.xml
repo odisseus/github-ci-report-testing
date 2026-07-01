@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="runnervm7b5n9" name="tests.pc.CompletionArgSuite" tests="81" errors="0" failures="0" skipped="19" time="5.534" timestamp="2026-06-19T02:23:28">
+          <properties>
+      <property name="java.specification.version" value="17"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-17-jdk-amd64/lib"/><property name="sun.java.command" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt-launch.jar +cross/test"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2026-04-21"/><property name="java.home" value="/usr/lib/jvm/temurin-17-jdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="17.0.19+10"/><property name="user.name" value="runner"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/runner/.cache/JNA/temp/jna504316886003146112.tmp"/><property name="java.vendor.version" value="Temurin-17.0.19+10"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="17.0.19"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor" value="Eclipse Adoptium"/><property name="java.specification.maintenance.version" value="1"/><property name="scala.ext.dirs" value="/home/runner/.sbt/1.0/java9-rt-ext-eclipse_adoptium_17_0_19"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Eclipse Adoptium"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Etc/UTC"/><property name="java.vm.specification.version" value="17"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/runner"/><property name="user.language" value="en"/><property name="sbt.script" value="/opt/hostedtoolcache/sbt/1.10.3/sbt/bin/sbt"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1001/.sbte6558b62/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1001/.sbte6558b62/swoval"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="6.17.0-1018-azure"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib32:/usr/local/lib:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="user.dir" value="/home/runner/work/metals-tmp/metals-tmp"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="17.0.19+10"/><property name="java.class.version" value="61.0"/>
+    </properties>
+          <testcase classname="tests.pc.CompletionArgSuite" name="arg_2.13.18" time="0.928">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg-newline_2.13.18" time="0.12">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg1_2.13.18" time="0.117">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg-edit_2.13.18" time="0.043">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg2_2.13.18" time="0.114">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg3_2.13.18" time="0.122">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg4_2.13.18" time="0.125">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg5_2.13.18" time="0.122">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg6_2.13.18" time="0.2">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg7_2.13.18" time="0.111">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg8_2.13.18" time="0.111">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg9_2.13.18" time="0.108">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg10_2.13.18" time="0.048">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg11_2.13.18" time="0.044">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg12_2.13.18" time="0.035">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg13_2.13.18" time="0.042">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="default-args_2.13.18" time="0.109">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="default-args2_2.13.18" time="0.102">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="default-args3_2.13.18" time="0.113">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="default-args4_2.13.18" time="0.097">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="default-args5_2.13.18" time="0.1">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="default-args6_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="default-args7_2.13.18" time="0.1">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="default-args8_2.13.18" time="0.1">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="explicit-dollar_2.13.18" time="0.048">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="explicit-dollar-autofill_2.13.18" time="0.044">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="arg14_2.13.18" time="0.048">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="priority_2.13.18" time="0.044">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="priority-2_2.13.18" time="0.05">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="named-multiple_2.13.18" time="0.045">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="named-backticked_2.13.18" time="0.047">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="auto-no-show_2.13.18" time="0.041">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="auto_2.13.18" time="0.043">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="auto-inheritance_2.13.18" time="0.044">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="auto-multiple-type_2.13.18" time="0.044">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="auto-not-found_2.13.18" time="0.046">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="auto-list_2.13.18" time="0.044">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="wrap-idents_2.13.18" time="0.045">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="nested-apply_2.13.18" time="0.114">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="infix_2.13.18" time="0.042">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="contructor-param_2.13.18" time="0.044">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="contructor-param2_2.13.18" time="0.045">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="context-function-as-param_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="context-function-as-param2_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="context-function-as-param3_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="second-arg-first_2.13.18" time="0.054">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="case-class-apply_2.13.18" time="0.052">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="case-class-apply1_2.13.18" time="0.053">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="case-class-apply2_2.13.18" time="0.054">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="case-class-apply3_2.13.18" time="0.067">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="case-class-apply4_2.13.18" time="0.056">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="case-class-for-comp_2.13.18" time="0.064">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="recursive_2.13.18" time="0.048">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded_2.13.18" time="0.061">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-with-param_2.13.18" time="0.071">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-with-named-param_2.13.18" time="0.088">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-generic_2.13.18" time="0.078">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-methods_2.13.18" time="0.07">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-methods2_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-select_2.13.18" time="0.054">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-in-a-class_2.13.18" time="0.32">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-function-param_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-function-param2_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-applied-type_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-bounds_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-or-type_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-function-param3_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="overloaded-extension-methods_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="lambda_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="lambda2_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="lambda3_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="lambda4_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="lambda5_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="second-first_2.13.18" time="0.066">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="second-first2_2.13.18" time="0.051">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="second-first3_2.13.18" time="0.055">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="second-first4_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="second-first5_2.13.18" time="0.0">
+                      <skipped/>
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="null-symbol_2.13.18" time="0.028">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="inaccessible-defaults_2.13.18" time="0.102">
+                      
+                    </testcase><testcase classname="tests.pc.CompletionArgSuite" name="autofill arguments_2.13.18" time="0.053">
+                      
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>

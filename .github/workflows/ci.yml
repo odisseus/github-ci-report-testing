@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-reports:
+    name: Publish ${{ matrix.report_dir }} reports
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        report_dir:
+          - "tests 1"
+          - "tests 2"
+          - "tests 3"
+          - "tests 4"
+          - "tests 5"
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Compute artifact name
+        id: artifact
+        run: |
+          slug="$(echo "${{ matrix.report_dir }}" | tr ' ' '-')"
+          echo "name=${slug}-xml-reports" >> "$GITHUB_OUTPUT"
+
+      - name: Upload XML test reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.artifact.outputs.name }}
+          path: sample-reports/${{ matrix.report_dir }}/**/*.xml
+          if-no-files-found: error
